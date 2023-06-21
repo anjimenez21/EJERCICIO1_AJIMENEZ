@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context=".Calcular">
+
+    <EditText
+        android:id="@+id/Numero1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Número 1"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Número 2"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:text="Sumar"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:text="Restar"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:text="Dividir"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:text="Multiplicar"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
